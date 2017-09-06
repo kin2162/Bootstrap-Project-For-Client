@@ -19,7 +19,7 @@
 
 .hero-image-home {
 
-    background-image: url("/home/richard//git/Bootstrap-Project-For-Client/images/Youngs-Tailor-Shop-HomePage.jpg");
+    background-image: url("/home/richard/git/Bootstrap-Project-For-Client/images/Youngs-Tailor-Shop-HomePage.jpg");
 
 height: 500px;
 
@@ -42,7 +42,7 @@ height: 500px;
 
 .hero-image-services {
 
-    background-image: url("/home/richard//git/Bootstrap-Project-For-Client/images/Youngs-Tailor-Shop-ServicesPage.jpg");
+    background-image: url("/home/richard/git/Bootstrap-Project-For-Client/images/Youngs-Tailor-Shop-ServicesPage.jpg");
     height: 250px;
     background-position: center;
     background-repeat: no-repeat;
@@ -82,6 +82,29 @@ margin-bottom: 100px;
 
 }
 
+.hero-image-contact {
+
+    background-image: url("/home/richard/git/Bootstrap-Project-For-Client/images/Youngs-Tailor-Shop-ContactUsPage.jpg");
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.contact-padding{
+
+margin-top: 100px;
+margin-bottom: 100px;
+
+}
+
+.sub-contact-padding{
+
+margin-top: 50px;
+margin-bottom: 50px;
+
+}
 
 #phone-number{
 color: inherit;
