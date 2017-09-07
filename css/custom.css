@@ -1,4 +1,11 @@
-
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+margin-bottom: 130px;
+}
 .navbar {
     margin-bottom: 0;
 }
@@ -21,8 +28,8 @@
 
     background-image: url("/home/richard/git/Bootstrap-Project-For-Client/images/Youngs-Tailor-Shop-HomePage.jpg");
 
-height: 500px;
-
+height: 100vh;
+width: 100vw;
 
     background-position: center;
     background-repeat: no-repeat;
@@ -43,7 +50,7 @@ height: 500px;
 .hero-image-services {
 
     background-image: url("/home/richard/git/Bootstrap-Project-For-Client/images/Youngs-Tailor-Shop-ServicesPage.jpg");
-    height: 250px;
+    height: 40vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -85,7 +92,7 @@ margin-bottom: 100px;
 .hero-image-contact {
 
     background-image: url("/home/richard/git/Bootstrap-Project-For-Client/images/Youngs-Tailor-Shop-ContactUsPage.jpg");
-    height: 250px;
+    height: 40vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -112,7 +119,7 @@ text-decoration: none;
 
 }
 
-
+/*
 .footer-section{
 
 text-align: center;
@@ -120,5 +127,17 @@ background-color: #0f0f0f;
 color: white;
 padding-top: 10px;
 padding-bottom: 10px;
+
+}
+
+*/
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 130px;
+  background-color: #0f0f0f;
+  text-align: center;
 
 }
