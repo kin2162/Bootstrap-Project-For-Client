@@ -3,8 +3,8 @@ html {
   min-height: 100%;
 }
 body {
-  /* Margin bottom by footer height */
-margin-bottom: 130px;
+
+margin-bottom: 150px;
 }
 .navbar {
     margin-bottom: 0;
@@ -29,7 +29,7 @@ margin-bottom: 130px;
     background-image: url("../images/Youngs-Tailor-Shop-HomePage.jpg");
 
 height: 100vh;
-width: 100vw;
+
 
     background-position: center;
     background-repeat: no-repeat;
@@ -50,7 +50,7 @@ width: 100vw;
 .hero-image-services {
 
     background-image: url("../images/Youngs-Tailor-Shop-ServicesPage.jpg");
-    height: 40vh;
+    height: 30vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -85,14 +85,14 @@ margin-bottom: 50px;
 
 text-align: center;
 margin-top: 100px;
-margin-bottom: 100px;
+margin-bottom: 200px;
 
 }
 
 .hero-image-contact {
 
     background-image: url("../images/Youngs-Tailor-Shop-ContactUsPage.jpg");
-    height: 40vh;
+    height: 30vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -113,31 +113,26 @@ margin-bottom: 50px;
 
 }
 
+.map-container{
+
+margin-bottom: 100px;
+}
+
 #phone-number{
 color: inherit;
 text-decoration: none;
 
 }
 
-/*
-.footer-section{
-
-text-align: center;
-background-color: #0f0f0f;
-color: white;
-padding-top: 10px;
-padding-bottom: 10px;
-
-}
-
-*/
 footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 130px;
+  height: 150px;
   background-color: #0f0f0f;
   text-align: center;
+  color: white;
+  padding-top: 20px;
 
 }
