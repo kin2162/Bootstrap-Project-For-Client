@@ -27,10 +27,7 @@ margin-bottom: 150px;
 .hero-image-home {
 
     background-image: url("../images/Youngs-Tailor-Shop-HomePage.jpg");
-
-height: 100vh;
-
-
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
