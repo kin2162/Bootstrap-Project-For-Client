@@ -4,7 +4,7 @@ html {
 }
 body {
 
-margin-bottom: 150px;
+margin-bottom: 200px;
 }
 .navbar {
     margin-bottom: 0;
@@ -92,7 +92,7 @@ margin-bottom: 200px;
     height: 30vh;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+  background-size: cover;
 
 }
 
@@ -126,10 +126,10 @@ footer {
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 150px;
+  height: 200px;
   background-color: #0f0f0f;
   text-align: center;
   color: white;
-  padding-top: 15px;
+  padding-top: 20px;
 
 }
