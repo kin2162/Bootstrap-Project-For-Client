@@ -65,10 +65,8 @@ margin-bottom: 200px;
 
 .services-list{
 
-list-style: none;
 
 }
-
 
 .service-intro{
 
@@ -77,12 +75,16 @@ margin-bottom: 50px;
 
 }
 
+.same-day-service{
+margin-top: 200px;
+
+
+}
 
 .coupon{
 
 text-align: center;
-margin-top: 100px;
-margin-bottom: 200px;
+margin-bottom: 300px;
 
 }
 
