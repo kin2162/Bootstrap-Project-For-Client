@@ -63,9 +63,29 @@ margin-bottom: 200px;
     color: black;
 }
 
-.services-list{
+.hero-image-about-margin{
+margin-top: 50px;
+}
 
+.hero-text-about-margin{
+  margin-top: 50px;
 
+}
+
+.about-body-margin{
+
+margin-top: 100px;
+margin-bottom: 300px;
+}
+
+.about-heading-margin{
+margin-bottom: 50px;
+
+}
+
+.services-body-margin{
+
+  margin-top: 100px;
 }
 
 .service-intro{
@@ -76,8 +96,8 @@ margin-bottom: 50px;
 }
 
 .same-day-service{
-margin-top: 200px;
-
+margin-top: 100px;
+margin-bottom: 100px;
 
 }
 

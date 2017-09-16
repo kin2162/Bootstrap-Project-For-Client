@@ -1,17 +1,28 @@
-AddType application/octet-stream .doc .mov .avi .pdf .xls .mp4
+<script type='application/ld+json'>
+{
+      "@context": "http://www.schema.org",
+      "@type": "LocalBusiness",
+      "name": "Young's Tailor Shop",
+      "url": "https://www.youngstailorshop.com/about/",
+      "image": "https://www.google.com/maps/place/Young's+Tailor+Shop/@32.8882736,-96.7715452,3a,75y,276.58h,90.11t/data=!3m6!1e1!3m4!1sEbIKj7TD4UcAoj-BkV8INw!2e0!7i13312!8i6656!4m5!3m4!1s0x864e9fdde4c553f9:0x2a21e102b8641dfa!8m2!3d32.8882882!4d-96.7716737",
+      "description": "Find out more about Young's Tailor Shop and its owner Mr.Young!",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "10455 N Central Expy, Ste 109A",
+        "addressLocality": "Dallas",
+        "addressRegion": "TX",
+        "postalCode": "75231",
+        "addressCountry": "United States"
+                },
+       "areaServed": "Dallas, TX",
+       "telephone": "+12143610800",
+	  "founder": {
+		"@type": "Person",
+		"gender": "Male",
+		"jobTitle": "Tailor"
+	  },
+	  "foundingDate": "1992"
+}
 
-ExpiresActive On
-ExpiresByType image/jpg "access plus 1 year"
-ExpiresByType image/jpeg "access plus 1 year"
-ExpiresByType image/gif "access plus 1 year"
-ExpiresByType image/png "access plus 1 year"
-ExpiresByType text/css "access plus 1 month"
-ExpiresByType application/pdf "access plus 1 year"
-ExpiresByType text/x-javascript "access plus 1 month"
-ExpiresByType application/x-shockwave-flash "access plus 1 month"
-ExpiresByType image/x-icon "access plus 1 year"
-ExpiresDefault "access plus 2 days"
-
-<FilesMatch ".(js|css|html|htm|php|xml)$">
-SetOutputFilter DEFLATE
-</FilesMatch>
+    
+     </script>
