@@ -34,11 +34,15 @@ margin-bottom: 200px;
 
 }
 
+.button-properties{
+background-color: #ff3333;
+margin-top: 100px;
+}
 
 .hero-text-home {
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
