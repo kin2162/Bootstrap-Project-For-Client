@@ -63,6 +63,10 @@ font-family: 'Roboto', sans-serif;
 
 }
 
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
 .navbar-default .navbar-nav > li > a {
     color: white;
 }
@@ -72,7 +76,6 @@ font-family: 'Roboto', sans-serif;
 }
 
 
-
 .hero-image-home {
 
     background-image: url("../images/Youngs-Tailor-Shop-HomePage.jpg");
@@ -80,8 +83,10 @@ font-family: 'Roboto', sans-serif;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
+    opacity: 0.95;
+    z-index: -1;
 }
+
 
 .button-properties{
 background-color: #ff3333;
@@ -100,7 +105,7 @@ margin-top: 100px;
 #hero-text-size{
 
    font-size: 46px;
-   color: red;
+   color:  #fff ;
 }
 
 
@@ -146,7 +151,7 @@ margin-bottom: 50px;
 
 #services-text-size{
   font-size: 40px;
-  color: blue;
+  color: #fff;
 }
 
 .services-body-margin{

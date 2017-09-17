@@ -1,7 +1,7 @@
 RewriteEngine On
 RewriteBase /
 
-#Remove .html extension
+#Remove .html extension & add trailing slash
 RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
 RewriteRule ^ %1/ [NC,L,R]
 
