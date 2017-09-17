@@ -4,4 +4,6 @@ The following are some of the SEO implementations that will be included:
   - URL structure, title tags, anchor text based on keyword research data for the specific business
   - JSON LD data for improved bot crawls and visibility
   - Minification of code and image compression for increased site speed
-  
+ 
+9/17/17
+Update: Site is now live at youngstailorshop.com 
