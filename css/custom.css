@@ -78,13 +78,13 @@ font-family: 'Roboto', sans-serif;
 
 .hero-image-home {
 
-    background-image: url("../images/Youngs-Tailor-Shop-HomePage.jpg");
+    background-image: url("/Youngs-Tailor-Shop-HomePage.jpg");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.95;
-    z-index: -1;
+    
 }
 
 
@@ -112,7 +112,7 @@ margin-top: 100px;
 
 .hero-image-services {
 
-    background-image: url("../images/Youngs-Tailor-Shop-ServicesPage.jpg");
+    background-image: url("/Youngs-Tailor-Shop-ServicesPage.jpg");
     height: 30vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -192,7 +192,7 @@ margin-bottom: 200px;
 
 .hero-image-contact {
 
-    background-image: url("../images/Youngs-Tailor-Shop-ContactUsPage.jpg");
+    background-image: url("/Youngs-Tailor-Shop-ContactUsPage.jpg");
     height: 30vh;
     background-position: center;
     background-repeat: no-repeat;
