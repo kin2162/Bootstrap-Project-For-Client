@@ -1,28 +1,38 @@
-<script type='application/ld+json'>
-{
-      "@context": "http://www.schema.org",
-      "@type": "LocalBusiness",
-      "name": "Young's Tailor Shop",
-      "url": "https://www.youngstailorshop.com/about/",
-      "image": "https://www.google.com/maps/place/Young's+Tailor+Shop/@32.8882736,-96.7715452,3a,75y,276.58h,90.11t/data=!3m6!1e1!3m4!1sEbIKj7TD4UcAoj-BkV8INw!2e0!7i13312!8i6656!4m5!3m4!1s0x864e9fdde4c553f9:0x2a21e102b8641dfa!8m2!3d32.8882882!4d-96.7716737",
-      "description": "Find out more about Young's Tailor Shop and its owner Mr.Young!",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "10455 N Central Expy, Ste 109A",
-        "addressLocality": "Dallas",
-        "addressRegion": "TX",
-        "postalCode": "75231",
-        "addressCountry": "United States"
-                },
-       "areaServed": "Dallas, TX",
-       "telephone": "+12143610800",
-	  "founder": {
-		"@type": "Person",
-		"gender": "Male",
-		"jobTitle": "Tailor"
-	  },
-	  "foundingDate": "1992"
-}
+RewriteEngine On
+RewriteBase /
 
-    
-     </script>
+#Remove .html extension
+RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteRule ^ %1/ [NC,L,R]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^/]+)/?$ $1.html [NC,L]
+
+#Browser Caching
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg "access 1 year"
+ExpiresByType image/jpeg "access 1 year"
+ExpiresByType image/gif "access 1 year"
+ExpiresByType image/png "access 1 year"
+ExpiresByType text/css "access 1 month"
+ExpiresByType application/pdf "access 1 month"
+ExpiresByType application/javascript "access 1 month"
+ExpiresByType application/x-javascript "access 1 month"
+ExpiresByType application/x-shockwave-flash "access 1 month"
+ExpiresByType image/x-icon "access 1 year"
+ExpiresDefault "access 2 days"
+</IfModule>
+
+
+#File Compression
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
